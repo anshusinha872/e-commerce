@@ -10,6 +10,9 @@ import {SliderModule} from 'primeng/slider';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
+import {PasswordModule} from 'primeng/password';
+import {DividerModule} from 'primeng/divider';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +26,11 @@ import { LoginComponent } from './login/login.component';
     ButtonModule,
     BrowserAnimationsModule,
     InputTextModule,
-    SliderModule
+    SliderModule,
+    PasswordModule,
+    DividerModule,
+    FormsModule,
+    PasswordModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
