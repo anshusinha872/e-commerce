@@ -37,9 +37,11 @@
     text-align: center;
   }
 
-  .error img{
-    width: 30vw;
-    height: auto;
+  .img{
+    width: 40vw;
+    height: 50vh;
+    background: url(./404.png);
+    background-size: cover;
     animation: scale 1.5s linear infinite;
   }
   @keyframes scale {
