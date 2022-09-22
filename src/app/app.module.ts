@@ -13,12 +13,14 @@ import { LoginComponent } from './login/login.component';
 import {PasswordModule} from 'primeng/password';
 import {DividerModule} from 'primeng/divider';
 import { FormsModule } from '@angular/forms';
+import { ErrorComponent } from './error/error.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     LoginComponent,
+    ErrorComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,19 +1,14 @@
-:root {
-    --social: #1e90ff;
-    --text: #fff;
-    --content: #cacdd2;
-    --bg : #111;
-}
+
 footer{
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background: var(--bg);
+    background: #111;
     height: auto;
     width: 100vw;
     padding-top: 10px;
-    color: var(--text);
+    color: #fff;
 }
 /* footer content */
 .footer-content{
@@ -34,7 +29,7 @@ footer{
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
-    color: var(--content);
+    color: #cacdd2;
 }
 .socials{
     list-style: none;
@@ -63,8 +58,8 @@ footer{
 }
 
 .socials a:hover {
-    color: var(--social);
-    border-color: var(--social);
+    color: #1e90ff;
+    border-color: #1e90ff;
 }
 /* footer bootom */
 .footer-bottom{

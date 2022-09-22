@@ -1,0 +1,55 @@
+
+.error{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding:50px;
+    /* background-color: #eae0e0; */
+  }
+
+  .errtxt{
+    margin-top: 10px;
+  }
+  .error a{
+    text-decoration: none;
+    color:blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  .error a:hover{
+    color:#111;
+  }
+
+  .errtxt span:first-child{
+    color:#273443;
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+  }
+
+  .errtxt span:last-child{
+    color:#273443;
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .error img{
+    width: 30vw;
+    height: auto;
+    animation: scale 1.5s linear infinite;
+  }
+  @keyframes scale {
+    0%{
+        transform: scale(1);  
+    }
+    50%{
+        transform: scale(1.05);  
+    }
+    100%{
+        transform: scale(1);  
+    }
+  }
