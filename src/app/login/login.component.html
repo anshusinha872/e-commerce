@@ -1,7 +1,8 @@
 <div class="container-fluid">
     <div class="row justify-content-between">
-        <div class="col-6 p-0"  style="background:url(assets/attachment_edit.png) no-repeat center center; background-size:cover; height:100vh;" >
-           
+        <div class="col-6 p-0"
+            style="background:url(assets/attachment_edit.png) no-repeat center center; background-size:cover; height:100vh;">
+
             <!-- <div style="overflow:hidden;" class="col-12 ms-0">
                 <img src="assets/attachment_edit.png" style="max-width:50vw;max-height: 100vh;" alt=""  srcset="">
             </div> -->
@@ -26,24 +27,26 @@
                     <div class="mt-4 row">
                         <span class="col-12  email-heading">Email address</span>
                         <span class="col-12 mt-2 ">
-                            <input  type="text" [style]="{'width': '100%'}" pInputText class="p-inputtext-sm shadow" placeholder="example@gmail.com">
+                            <input type="text" [style]="{'width': '100%'}" pInputText class="p-inputtext-sm shadow"
+                                placeholder="example@gmail.com">
                         </span>
                     </div>
                     <div class="mt-4">
                         <div class="d-flex justify-content-between">
-                            <span >Password</span>
+                            <span>Password</span>
                             <span><a href="#">Forget Password</a></span>
                         </div>
                         <!-- <p-password [(ngModel)]="value3" [toggleMask]="true"></p-password> -->
                         <div class="mt-2 w-100">
-                            
-                            <p-password class="shadow-lg" [style]="{'width':'100%'}" [inputStyle]="{'width':'100%'}"    [(ngModel)]="value3" [toggleMask]="true">
-                                <ng-template  pTemplate="header">
+
+                            <p-password class="shadow-lg" [style]="{'width':'100%'}" [inputStyle]="{'width':'100%'}"
+                                [(ngModel)]="value3" [toggleMask]="true">
+                                <ng-template pTemplate="header">
                                     <h6>Pick a password</h6>
                                 </ng-template>
-                                <ng-template  pTemplate="footer">
+                                <ng-template pTemplate="footer">
                                     <p-divider></p-divider>
-                                    <p class="p-mt-2" >Suggestions</p>
+                                    <p class="p-mt-2">Suggestions</p>
                                     <ul class="p-pl-2 p-ml-2 p-mt-0" style="line-height: 1.5">
                                         <li>At least one lowercase</li>
                                         <li>At least one uppercase</li>
@@ -62,7 +65,8 @@
                         <p-divider></p-divider>
                     </div>
                     <div class="">
-                        <p-button class="" [style]="{'width':'100%'}" label="Sign with Google" icon="pi pi-google"></p-button>
+                        <p-button class="" [style]="{'width':'100%'}" label="Sign with Google" icon="pi pi-google">
+                        </p-button>
                     </div>
                     <div class="mt-4">
                         Don't have an account?
@@ -70,7 +74,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
-        </div>
+    </div>
 </div>
