@@ -15,6 +15,9 @@ import {DividerModule} from 'primeng/divider';
 import { FormsModule } from '@angular/forms';
 import { ErrorComponent } from './error/error.component';
 import { SignupComponent } from './signup/signup.component';
+import {ConfirmDialogModule} from 'primeng/confirmdialog';
+// import {ConfirmationService} from 'primeng/confirmpopup';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +38,7 @@ import { SignupComponent } from './signup/signup.component';
     DividerModule,
     FormsModule,
     PasswordModule,
+    ConfirmDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
