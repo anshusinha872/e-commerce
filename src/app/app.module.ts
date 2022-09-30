@@ -14,6 +14,7 @@ import {PasswordModule} from 'primeng/password';
 import {DividerModule} from 'primeng/divider';
 import { FormsModule } from '@angular/forms';
 import { ErrorComponent } from './error/error.component';
+import { SignupComponent } from './signup/signup.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +22,7 @@ import { ErrorComponent } from './error/error.component';
     FooterComponent,
     LoginComponent,
     ErrorComponent,
+    SignupComponent,
   ],
   imports: [
     BrowserModule,
