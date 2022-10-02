@@ -16,6 +16,7 @@ import { FormsModule } from '@angular/forms';
 import { ErrorComponent } from './error/error.component';
 import { SignupComponent } from './signup/signup.component';
 import {ConfirmDialogModule} from 'primeng/confirmdialog';
+import { HomeComponent } from './home/home.component';
 // import {ConfirmationService} from 'primeng/confirmpopup';
 
 @NgModule({
@@ -26,6 +27,7 @@ import {ConfirmDialogModule} from 'primeng/confirmdialog';
     LoginComponent,
     ErrorComponent,
     SignupComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
