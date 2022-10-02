@@ -70,7 +70,22 @@
           <div class="d-flex flex-row align-items-center mb-4">
             <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
             <span class="p-float-label flex-fill">
-              <input id="c" type="password" [style]="{'width':'100%'}" pInputText [(ngModel)]="pass">
+              <p-password class="shadow-lg" [style]="{'width':'100%'}" [inputStyle]="{'width':'100%'}"
+              [(ngModel)]="pass" [toggleMask]="true">
+              <ng-template pTemplate="header">
+                  <h6>Pick a password</h6>
+              </ng-template>
+              <ng-template pTemplate="footer">
+                  <p-divider></p-divider>
+                  <p class="p-mt-2">Suggestions</p>
+                  <ul class="p-pl-2 p-ml-2 p-mt-0" style="line-height: 1.5">
+                      <li>At least one lowercase</li>
+                      <li>At least one uppercase</li>
+                      <li>At least one numeric</li>
+                      <li>Minimum 8 characters</li>
+                  </ul>
+              </ng-template>
+          </p-password>
               <label for="c">Password</label>
             </span>
           </div>
