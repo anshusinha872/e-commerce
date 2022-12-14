@@ -7,17 +7,17 @@ import { AppComponent } from './app.component';
 import {ButtonModule} from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
 import {SliderModule} from 'primeng/slider';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { LoginComponent } from './login/login.component';
+import { HeaderComponent } from './view/partial/header/header.component';
+import { FooterComponent } from './view/partial/footer/footer.component';
+import { LoginComponent } from './view/pages/login/login.component';
 import {PasswordModule} from 'primeng/password';
 import {DividerModule} from 'primeng/divider';
 import { FormsModule } from '@angular/forms';
-import { ErrorComponent } from './error/error.component';
-import { SignupComponent } from './signup/signup.component';
+import { ErrorComponent } from './view/pages/error/error.component';
+import { SignupComponent } from './view/pages/signup/signup.component';
 import {ConfirmDialogModule} from 'primeng/confirmdialog';
-import { HomeComponent } from './home/home.component';
-import { SideBannerComponent } from './side-banner/side-banner.component';
+import { HomeComponent } from './view/pages/home/home.component';
+import { SideBannerComponent } from './view/partial/side-banner/side-banner.component';
 @NgModule({
   declarations: [
     AppComponent,
