@@ -18,7 +18,7 @@ import { SignupComponent } from './view/pages/signup/signup.component';
 import {ConfirmDialogModule} from 'primeng/confirmdialog';
 import { HomeComponent } from './view/pages/home/home.component';
 import { SideBannerComponent } from './view/partial/side-banner/side-banner.component';
-import { CodeComponent } from './code/code.component';
+
 import { DashboardComponent } from './dashboard/dashboard.component';
 import {AngularFireModule} from '@angular/fire/compat'
 import { AngularFireAuthModule } from "@angular/fire/compat/auth";
@@ -36,7 +36,7 @@ import { NgOtpInputModule } from 'ng-otp-input';
     SignupComponent,
     HomeComponent,
     SideBannerComponent,
-    CodeComponent,
+    HomeComponent,
     DashboardComponent,
   ],
   imports: [
